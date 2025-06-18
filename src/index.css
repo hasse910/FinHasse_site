@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 210 11% 15%;
+    --foreground: 0 0% 98%;
+
+    --card: 210 11% 20%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 210 11% 20%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 186 48% 36%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 210 11% 25%;
+    --secondary-foreground: 0 0% 95%;
+
+    --muted: 210 11% 25%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 210 11% 25%;
+    --accent-foreground: 0 0% 95%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 210 11% 30%;
+    --input: 210 11% 30%;
+    --ring: 186 48% 36%;
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 210 11% 15%;
+    --sidebar-foreground: 0 0% 95%;
+    --sidebar-primary: 186 48% 36%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 210 11% 25%;
+    --sidebar-accent-foreground: 0 0% 95%;
+    --sidebar-border: 210 11% 30%;
+    --sidebar-ring: 186 48% 36%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-charcoal-900 text-foreground font-sans;
+    min-height: 100vh;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  .gradient-text {
+    @apply bg-gradient-to-r from-primary to-blue-400 bg-clip-text text-transparent;
+  }
+  
+  .hover-lift {
+    @apply transition-transform duration-300 hover:scale-105;
+  }
+}
