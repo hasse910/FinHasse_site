@@ -49,13 +49,13 @@ const ContactSection = () => {
     {
       icon: Phone,
       title: 'Telefone',
-      content: '(11) 9999-9999',
-      link: 'tel:+5511999999999'
+      content: '(48) 99605-3770',
+      link: 'https://api.whatsapp.com/send?phone=5548996053770&text=Oi,Achei%20o%20site%20de%20voc%C3%AAs.%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5ea./'
     },
     {
       icon: MapPin,
       title: 'Localização',
-      content: 'São Paulo, SP - Brasil',
+      content: 'Florianópolis, SC - Brasil',
       link: '#'
     }
   ];
@@ -100,7 +100,7 @@ const ContactSection = () => {
 
                 <div>
                   <label htmlFor="email" className="block text-sm font-medium text-gray-300 mb-2">
-                    E-mail Corporativo *
+                    E-mail *
                   </label>
                   <Input
                     id="email"
