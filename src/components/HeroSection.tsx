@@ -23,14 +23,14 @@ const HeroSection = () => {
 
           {/* Main Heading */}
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-            <span className="text-white">finhasse: </span>
+            <span className="text-white">FinHasse: </span>
             <span className="gradient-text">Inteligência Financeira</span>
             <span className="text-white"> para o Sucesso do seu Negócio</span>
           </h1>
 
           {/* Subtitle */}
           <p className="text-xl md:text-2xl text-gray-300 mb-12 leading-relaxed max-w-3xl mx-auto">
-            Simplificamos a gestão financeira da sua empresa com serviços de BPO e consultoria 
+            Simplificamos a gestão financeira da sua empresa de <span className="gradient-text">Tecnologia</span> com serviços de BPO e consultoria 
             para que você possa focar no que realmente importa: <span className="text-primary font-semibold">o crescimento</span>.
           </p>
 

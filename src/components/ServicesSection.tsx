@@ -32,9 +32,13 @@ const ServicesSection = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
             Nossas Soluções para <span className="text-primary">sua Empresa</span>
           </h2>
-          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+          {/* <p className="text-xl text-gray-300 max-w-3xl mx-auto">
             Oferecemos uma gama completa de serviços financeiros desenhados especificamente 
             para pequenas e médias empresas que buscam crescimento sustentável.
+          </p> */}
+          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+            Oferecemos uma gama completa de serviços financeiros desenhados especificamente 
+            para empresas de Tecnologia, Startups e Serviços que buscam crescimento sustentável.
           </p>
         </div>
 

@@ -39,26 +39,28 @@ const AboutSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="animate-slide-in">
             <h3 className="text-3xl font-semibold text-white mb-6">
-              Sua Parceira em <span className="text-primary">Inteligência Financeira</span>
+              Sua Parceira em <span className="text-primary">Inteligência Financeira</span> e Crescimento no Setor Tech
             </h3>
-            
-            <div className="space-y-6 text-gray-300 text-lg leading-relaxed">
+
+             <div className="space-y-6 text-gray-300 text-lg leading-relaxed">
               <p>
-                A <strong className="text-primary">finhasse</strong> nasceu da visão de que toda empresa, 
-                independentemente do seu porte, merece ter acesso a serviços financeiros de excelência. 
-                Somos especialistas em transformar a complexidade financeira em soluções simples e eficazes.
+                A <strong className="text-primary">FinHasse</strong> é a parceira financeira estratégica para 
+                empresas de tecnologia e startups. Nascemos da união entre finanças e desenvolvimento, para que 
+                empresas de tecnologia, startups e serviços tenham acesso a uma inteligência financeira de excelência. 
+                Somos especialistas em transformar a complexidade financeira em soluções simples e eficazes, falando a sua 
+                língua e entendendo seus desafios de forma nativa.
               </p>
               
               <p>
-                Nossa missão é ser o parceiro estratégico que libera o potencial de crescimento das 
-                pequenas e médias empresas brasileiras, oferecendo <strong className="text-white">BPO financeiro</strong> e 
-                <strong className="text-white"> consultoria especializada</strong> que geram resultados tangíveis.
-              </p>
-              
-              <p>
-                Combinamos experiência sólida no mercado financeiro com tecnologia de ponta e 
-                um atendimento verdadeiramente personalizado. Cada cliente é único, e nossas 
+                Nossa missão é ser o parceiro estratégico que libera o potencial de 
+                crescimento do seu negócio. Combinamos experiência sólida no mercado financeiro
+                com tecnologia de ponta e um atendimento verdadeiramente personalizado. Nosso atendimento é pautado pela 
+                metodologia <strong className="text-white">Customer First</strong>, pois entendemos que cada cliente é único e nossas 
                 soluções refletem essa individualidade.
+              </p>
+              
+              <p>
+                Transformamos dados em crescimento, analisando as métricas que definem o sucesso do seu negócio. Para simplificar sua rotina e guiar suas decisões financeiras, oferecemos nosso próprio aplicativo, uma alternativa eficiente a softwares caros.
               </p>
             </div>
 

@@ -20,7 +20,7 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="text-2xl font-bold text-white">
-            <span className="text-primary">fin</span>hasse
+            <span className="text-primary">Fin</span>Hasse
           </div>
 
           {/* Desktop Navigation */}
