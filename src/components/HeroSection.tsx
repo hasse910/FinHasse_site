@@ -54,11 +54,11 @@ const HeroSection = () => {
           {/* Stats */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-20 pt-12 border-t border-charcoal-700">
             <div className="text-center">
-              <div className="text-3xl font-bold text-primary mb-2">15+</div>
+              <div className="text-3xl font-bold text-primary mb-2">10+</div>
               <div className="text-gray-400">Anos de Experiência</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-primary mb-2">500+</div>
+              <div className="text-3xl font-bold text-primary mb-2">14+</div>
               <div className="text-gray-400">Empresas Atendidas</div>
             </div>
             <div className="text-center">

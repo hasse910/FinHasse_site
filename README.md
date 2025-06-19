@@ -13,7 +13,6 @@ Você pode editar o código-fonte localmente em seu computador usando seu editor
 Para rodar este projeto localmente, a única exigência é ter o **Node.js** e o **npm** instalados.
 
 * **Recomendado:** Instale através do site oficial do [Node.js](https://nodejs.org/) (versão LTS).
-* **Avançado:** Se você gerencia múltiplas versões do Node, pode usar o [nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
 
 ### Passos para o Ambiente de Desenvolvimento
 
@@ -21,8 +20,7 @@ Siga os passos abaixo para rodar o site em sua máquina.
 
 ```sh
 # 1. Clone o repositório para o seu computador
-# (Substitua <URL_DO_SEU_GIT> pela URL correta do seu repositório Git)
-git clone <URL_DO_SEU_GIT>
+git clone https://github.com/hasse910/FinHasse_site.git
 
 # 2. Navegue até a pasta do projeto que foi criada
 cd finhasse

@@ -19,8 +19,8 @@ const Footer = () => {
               Simplificamos a gestão financeira para que você possa focar no crescimento.
             </p>
             <div className="text-sm text-gray-500">
-              CNPJ: 00.000.000/0001-00<br />
-              Registro CRC: SP-000000/O-0
+              {/* CNPJ: 00.000.000/0001-00<br />
+              Registro CRC: SP-000000/O-0 */}
             </div>
           </div>
 
@@ -90,7 +90,7 @@ const Footer = () => {
             © {currentYear} finhasse. Todos os direitos reservados.
           </div>
           <div className="text-gray-400 text-sm">
-            Desenvolvido com 💚 para impulsionar seu negócio
+            <a href="https://hassetech.com/" target="_blank">Desenvolvido por HasseTech</a>
           </div>
         </div>
       </div>
